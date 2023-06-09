@@ -1,0 +1,53 @@
+@font-face{
+    font-family: 'Break';
+    font-style: normal;
+    font-weight:lighter;
+    src: local('HARRP___.woff'), url('HARRP___.woff') format('woff')
+}
+
+h1{
+    font-family: 'Break';
+    font-weight: 150px;
+    color: #C4FF00;
+    text-decoration:overline underline double;
+    text-decoration-color: #b3ff00;
+    text-shadow:
+      0 0 7px #ffffff,
+      0 0 10px #fdfdfd,
+      0 0 21px #ffffff33,
+      0 0 42px #a5d31096,
+      0 0 82px #C4FF00,
+      0 0 92px #C4FF00,
+      0 0 102px #C4FF00,
+      0 0 151px #C4FF00;
+      animation: flicker 1.3s infinite alternate;
+}
+@keyframes flicker {
+    
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #ffffffa4,
+        0 0 40px #a5d31096,
+        0 0 80px #d1fc45,
+        0 0 90px #ccf73e,
+        0 0 100px #9dcc04,
+        0 0 150px #bbec19;
+    
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+  }
+  
+h2{
+    font-family: 'Break';
+
+}
+
+p{
+    font-family: 'Break';
+}

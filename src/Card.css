@@ -1,0 +1,5 @@
+.cartas{
+    background: linear-gradient(to top, #0f20273f, #203a4365, #2c53646c);
+    color: #fff;
+    cursor: pointer;
+}

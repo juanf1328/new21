@@ -1,0 +1,13 @@
+.search{
+    background: linear-gradient(to left, #c3ff00b2, #c3ff0048, #c3ff0093); 
+    color: #fff;
+    border: none;
+    border-color: #c3ff0027;
+    border-radius: 8px;
+    font-size: medium;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fffbfb;
+    font-size: 20px;
+    text-align: center;
+  }
